@@ -1,0 +1,3 @@
+POINT(5 1)
+POINT(4 3.7)
+POINT(6.3 8)

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://olj.ing.unimore.it/exam/45/exercise/view/66 -->
+<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="./ScalarMultiplication_files/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-JHGNYN9YCB');
+    </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./ScalarMultiplication_files/themes.css">
+    <link rel="shortcut icon" href="https://olj.ing.unimore.it/static/oljApp/imgs/olj_logo_squared.png">
+    <link rel="stylesheet" href="./ScalarMultiplication_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./ScalarMultiplication_files/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="./ScalarMultiplication_files/jquery-3.4.1.min.js.download" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./ScalarMultiplication_files/popper.min.js.download" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./ScalarMultiplication_files/bootstrap.min.js.download" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+    
+    <link rel="stylesheet" href="./ScalarMultiplication_files/editormd.preview.css">
+    
+    
+    <link type="text/css" rel="stylesheet" href="./ScalarMultiplication_files/katex.min.css">
+    <script id="-cdnjs-cloudflare-com-ajax-libs-KaTeX-0-11-1-katex-min" type="text/javascript" src="./ScalarMultiplication_files/katex.min.js.download"></script>
+
+
+    <title> ScalarMultiplication </title>
+    
+    <script>
+        // Script to set/check cookies for "storing" user choices on alerts
+        function showWhenRequired(id) {
+            if (display(id)) {
+                $("#" + id).show()
+            }
+        }
+
+        function setCookie(cname, cvalue) {
+            let exdate = new Date();
+            exdate.setDate(exdate.getDate() + 5);
+            document.cookie = cname + "=" + cvalue + "; expires=" + exdate.toUTCString() + ";path=/; SameSite=None; Secure";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function display(cname) {
+            var display = getCookie(cname);
+            return (display === null || display === ""); // If null we have to display the alert
+        }
+    </script>
+</head>
+
+<body class="light-theme" style="padding-top: 90px; padding-bottom: 60px;">
+<div class="container">
+    
+
+
+
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="https://olj.ing.unimore.it/">
+                <img src="./ScalarMultiplication_files/olj_logo.png" alt="olj" style="max-height:50px;"></a>
+        </div>
+
+        <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                
+                <a class="nav-link active" href="https://olj.ing.unimore.it/course/1"> Fondamenti di Informatica I </a> 
+                
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link" href="https://olj.ing.unimore.it/exam/45/exercise/view/66#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Insegnamenti
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            
+                                <a class="dropdown-item" href="https://olj.ing.unimore.it/course/1">Fondamenti di Informatica I</a>
+                            
+                                <a class="dropdown-item" href="https://olj.ing.unimore.it/course/2">Fondamenti di Informatica II</a>
+                            
+                                <a class="dropdown-item" href="https://olj.ing.unimore.it/course/4">Sistemi Operativi</a>
+                            
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://olj.ing.unimore.it/">Tutti gli Insegnamenti</a>
+                        </div>
+                    </li>
+                
+                
+                    <a class="nav-link" href="https://olj.ing.unimore.it/quiz/course/1">Quiz <span class="sr-only">(current)</span></a>
+
+
+
+            </ul>
+            <ul class="navbar-nav ml-auto">
+
+                
+                
+                
+                <!--Available Languages [(&#x27;en&#x27;, &#x27;Inglese&#x27;), (&#x27;it&#x27;, &#x27;Italiano&#x27;)] -->
+                <li class="nav-item dropdown show">
+                    <a class="nav-link" href="https://olj.ing.unimore.it/exam/45/exercise/view/66#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="15px" src="./ScalarMultiplication_files/it.png">
+                        &nbsp; <span class="caret"></span></a>
+                    <div id="language-list" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        
+                            <a class="dropdown-item" href="https://olj.ing.unimore.it/i18n/setlang/" data-language-code="en">
+                                <img width="15px" src="./ScalarMultiplication_files/en.png">
+                                Inglese
+                                &nbsp;&nbsp;
+                            </a>
+                        
+                            <a class="dropdown-item" href="https://olj.ing.unimore.it/i18n/setlang/" data-language-code="it">
+                                <img width="15px" src="./ScalarMultiplication_files/it.png">
+                                Italiano
+                                ✓
+                            </a>
+                        
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown show">
+                    
+                        <a class="dropdown-toggle nav-link" href="https://olj.ing.unimore.it/profile/" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Emanuela Ugolotti
+                            
+                                (66011)
+                            
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="https://olj.ing.unimore.it/profile/">Profilo</a>
+                            <a class="dropdown-item" href="https://olj.ing.unimore.it/accounts/logout/">Logout</a>
+                        </div>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<style>
+    #navbar {
+        font-size: large;
+        background-color: #ECECEC;
+    }
+</style>
+    <div class="extend row justify-content-center">
+        <div class="col-12">
+            
+                <h1 class="mt-2"> ScalarMultiplication
+    <a type="button" href="https://olj.ing.unimore.it/exercise/submit/66/exam/45/" class="btn btn-success float-right mr-1"><i class="fa fa-upload" aria-hidden="true"></i>
+        Submit Solution</a>
+    
+</h1>
+                <hr class="mt-0 mb-4">
+            
+            
+            
+    <div id="test-editormd-view" class="markdown-body editormd-html-preview">
+        <p>Creare i file <code>matrix.h</code> e <code>matrix.c</code> che consentano di utilizzare la seguente struttura:</p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="linenums"><li class="L0"><code class="lang-c"><span class="kwd">struct</span><span class="pln"> matrix </span><span class="pun">{</span></code></li><li class="L1"><code class="lang-c"><span class="pln">    </span><span class="typ">size_t</span><span class="pln"> rows</span><span class="pun">,</span><span class="pln"> cols</span><span class="pun">;</span></code></li><li class="L2"><code class="lang-c"><span class="pln">    </span><span class="kwd">double</span><span class="pln"> </span><span class="pun">*</span><span class="pln">data</span><span class="pun">;</span></code></li><li class="L3"><code class="lang-c"><span class="pun">};</span></code></li></ol></pre>
+<p>e la funzione:</p>
+<pre class="prettyprint linenums prettyprinted" style=""><ol class="linenums"><li class="L0"><code class="lang-c"><span class="kwd">extern</span><span class="pln"> </span><span class="kwd">bool</span><span class="pln"> scalar_mult</span><span class="pun">(</span><span class="kwd">struct</span><span class="pln"> matrix </span><span class="pun">*</span><span class="pln">dst</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">const</span><span class="pln"> </span><span class="kwd">struct</span><span class="pln"> matrix </span><span class="pun">*</span><span class="pln">src</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">double</span><span class="pln"> k</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">bool</span><span class="pln"> accumulate</span><span class="pun">);</span></code></li></ol></pre>
+<p>La struct consente di rappresentare matrici di dimensioni arbitraria, dove <code>rows</code> è il numero di righe, <code>cols</code> è il numero di colonne e <code>data</code> è un puntatore a <code>rows×cols</code> valori di tipo <code>double</code> memorizzati per righe.</p>
+<p>Consideriamo ad esempio la matrice</p>
+<p class="editormd-tex"><span class="katex" style="font-size: 1.6em;"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>=</mo><mrow><mo fence="true">(</mo><mtable rowspacing="0.15999999999999992em" columnalign="center" columnspacing="1em"><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>1</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>2</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>3</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>4</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>5</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>6</mn></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">A = 
+\left(\begin{array}{c} 
+1 &amp; 2 &amp; 3\\
+4 &amp; 5 &amp; 6
+\end{array}\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 2.40003em; vertical-align: -0.95003em;"></span><span class="minner"><span class="mopen delimcenter" style="top: 0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.45em;"><span class="" style="top: -3.61em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span></span></span><span class="" style="top: -2.41em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.95em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.45em;"><span class="" style="top: -3.61em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">2</span></span></span><span class="" style="top: -2.41em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">5</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.95em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.45em;"><span class="" style="top: -3.61em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">3</span></span></span><span class="" style="top: -2.41em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.95em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span></span></span><span class="mclose delimcenter" style="top: 0em;"><span class="delimsizing size3">)</span></span></span></span></span></span></p><p>questo corrisponderebbe ad una variabile <code>struct matrix A</code>, con <code>A.rows=2</code>, <code>A.cols=3</code> e <code>A.data</code> che punta ad un`area di memoria contenente i valori <code>{ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 }</code>.</p>
+<p>La funzione <code>scalar_mult</code> accetta come parametri due puntatori a matrici, <code>dst</code> e <code>src</code>, uno scalare <code>k</code> e un flag booleano <code>accumulate</code>.</p>
+<p>Se <code>accumulate=false</code>, la funzione deve moltiplicare <code>src</code> per <code>k</code>, e scrivere il risultato in <code>dst</code>, sovrascrivendo i dati già presenti. Ovvero:</p>
+<p class="editormd-tex"><span class="katex" style="font-size: 1.6em;"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mi>S</mi><mi>T</mi><mo>=</mo><mi>S</mi><mi>R</mi><mi>C</mi><mo>×</mo><mi>k</mi></mrow><annotation encoding="application/x-tex">DST = SRC \times k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span style="margin-right: 0.02778em;" class="mord mathdefault">D</span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.13889em;" class="mord mathdefault">T</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.76666em; vertical-align: -0.08333em;"></span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.00773em;" class="mord mathdefault">R</span><span style="margin-right: 0.07153em;" class="mord mathdefault">C</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span style="margin-right: 0.03148em;" class="mord mathdefault">k</span></span></span></span></p>
+<p>Se <code>accumulate=true</code>, la funzione deve moltiplicare <code>src</code> per <code>k</code>, e sommare il risultato a <code>dst</code>. Ovvero:</p>
+<p class="editormd-tex"><span class="katex" style="font-size: 1.6em;"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mi>S</mi><mi>T</mi><mo>=</mo><mi>D</mi><mi>S</mi><mi>T</mi><mo>+</mo><mi>S</mi><mi>R</mi><mi>C</mi><mo>×</mo><mi>k</mi></mrow><annotation encoding="application/x-tex">DST = DST + SRC \times k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span style="margin-right: 0.02778em;" class="mord mathdefault">D</span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.13889em;" class="mord mathdefault">T</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 0.76666em; vertical-align: -0.08333em;"></span><span style="margin-right: 0.02778em;" class="mord mathdefault">D</span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.13889em;" class="mord mathdefault">T</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.76666em; vertical-align: -0.08333em;"></span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.00773em;" class="mord mathdefault">R</span><span style="margin-right: 0.07153em;" class="mord mathdefault">C</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span style="margin-right: 0.03148em;" class="mord mathdefault">k</span></span></span></span></p>
+<p>La funzione ritorna <code>false</code> se una delle due matrici è <code>NULL</code>, o se <code>src</code> e <code>dst</code> hanno dimensioni diverse. Altrimenti, restituisce <code>true</code>.</p>
+<p>Ad esempio, date le matrici:</p>
+<p class="editormd-tex"><span class="katex" style="font-size: 1.6em;"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mi>S</mi><mi>T</mi><mo>=</mo><mrow><mo fence="true">(</mo><mtable rowspacing="0.15999999999999992em" columnalign="center" columnspacing="1em"><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>1</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>2</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>3</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>4</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>5</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>6</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>7</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>8</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>9</mn></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow>              <mi>S</mi><mi>R</mi><mi>C</mi><mo>=</mo><mrow><mo fence="true">(</mo><mtable rowspacing="0.15999999999999992em" columnalign="center" columnspacing="1em"><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>9</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>8</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>7</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>6</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>5</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>4</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>3</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>2</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>1</mn></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">DST = \left(\begin{array}{c} 
+1 &amp; 2 &amp; 3\\
+4 &amp; 5 &amp; 6\\
+7 &amp; 8 &amp; 9
+\end{array}\right)
+\;\;\;\;\;\;\;
+SRC = \left(\begin{array}{c} 
+9 &amp; 8 &amp; 7\\
+6 &amp; 5 &amp; 4\\
+3 &amp; 2 &amp; 1
+\end{array}\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span style="margin-right: 0.02778em;" class="mord mathdefault">D</span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.13889em;" class="mord mathdefault">T</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 3.60004em; vertical-align: -1.55002em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05002em;"><span class="" style="top: -2.25em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎝</span></span></span><span class="" style="top: -2.81em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎜</span></span></span><span class="" style="top: -4.05002em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎛</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55002em;"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">4</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">7</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">2</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">5</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">8</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">3</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">6</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">9</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05002em;"><span class="" style="top: -2.25em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎠</span></span></span><span class="" style="top: -2.81em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎟</span></span></span><span class="" style="top: -4.05002em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55002em;"><span class=""></span></span></span></span></span></span></span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mspace" style="margin-right: 0.277778em;"></span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.00773em;" class="mord mathdefault">R</span><span style="margin-right: 0.07153em;" class="mord mathdefault">C</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 3.60004em; vertical-align: -1.55002em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05002em;"><span class="" style="top: -2.25em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎝</span></span></span><span class="" style="top: -2.81em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎜</span></span></span><span class="" style="top: -4.05002em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎛</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55002em;"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">9</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">6</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">8</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">5</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">7</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">4</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05002em;"><span class="" style="top: -2.25em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎠</span></span></span><span class="" style="top: -2.81em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎟</span></span></span><span class="" style="top: -4.05002em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55002em;"><span class=""></span></span></span></span></span></span></span></span></span></span></p><p>Chiamando la funzione con <code>k=2</code> e <code>accumulate=false</code>, il contenuto di <code>dst</code> verrà modificato in:</p>
+<p class="editormd-tex"><span class="katex" style="font-size: 1.6em;"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mi>S</mi><mi>T</mi><mo>=</mo><mrow><mo fence="true">(</mo><mtable rowspacing="0.15999999999999992em" columnalign="center" columnspacing="1em"><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>18</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>16</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>14</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>12</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>10</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>8</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>6</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>4</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>2</mn></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">DST = \left(\begin{array}{c} 
+18 &amp; 16 &amp; 14\\
+12 &amp; 10 &amp; 8\\
+6 &amp; 4 &amp; 2
+\end{array}\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span style="margin-right: 0.02778em;" class="mord mathdefault">D</span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.13889em;" class="mord mathdefault">T</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 3.60004em; vertical-align: -1.55002em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05002em;"><span class="" style="top: -2.25em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎝</span></span></span><span class="" style="top: -2.81em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎜</span></span></span><span class="" style="top: -4.05002em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎛</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55002em;"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">8</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">2</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">6</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">0</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">4</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">8</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05002em;"><span class="" style="top: -2.25em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎠</span></span></span><span class="" style="top: -2.81em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎟</span></span></span><span class="" style="top: -4.05002em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55002em;"><span class=""></span></span></span></span></span></span></span></span></span></span></p><p>Mentre chiamando la funzione con <code>k=2</code> e <code>accumulate=true</code>, <code>dst</code> diventerà:</p>
+<p class="editormd-tex"><span class="katex" style="font-size: 1.6em;"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mi>S</mi><mi>T</mi><mo>=</mo><mrow><mo fence="true">(</mo><mtable rowspacing="0.15999999999999992em" columnalign="center" columnspacing="1em"><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>19</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>18</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>17</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>16</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>15</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>14</mn></mstyle></mtd></mtr><mtr><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>13</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>12</mn></mstyle></mtd><mtd><mstyle displaystyle="false" scriptlevel="0"><mn>11</mn></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">DST = \left(\begin{array}{c} 
+19 &amp; 18 &amp; 17\\
+16 &amp; 15 &amp; 14\\
+13 &amp; 12 &amp; 11
+\end{array}\right)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span><span style="margin-right: 0.02778em;" class="mord mathdefault">D</span><span style="margin-right: 0.05764em;" class="mord mathdefault">S</span><span style="margin-right: 0.13889em;" class="mord mathdefault">T</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 3.60004em; vertical-align: -1.55002em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05002em;"><span class="" style="top: -2.25em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎝</span></span></span><span class="" style="top: -2.81em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎜</span></span></span><span class="" style="top: -4.05002em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎛</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55002em;"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">9</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">6</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">8</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">5</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="arraycolsep" style="width: 0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05em;"><span class="" style="top: -4.21em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">7</span></span></span><span class="" style="top: -3.01em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">4</span></span></span><span class="" style="top: -1.81em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55em;"><span class=""></span></span></span></span></span><span class="arraycolsep" style="width: 0.5em;"></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.05002em;"><span class="" style="top: -2.25em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎠</span></span></span><span class="" style="top: -2.81em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎟</span></span></span><span class="" style="top: -4.05002em;"><span class="pstrut" style="height: 3.155em;"></span><span class="delimsizinginner delim-size4"><span class="">⎞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.55002em;"><span class=""></span></span></span></span></span></span></span></span></span></span></p>
+    </div>
+    
+
+            <br class="mb-4">
+        </div>
+    </div>
+</div>
+
+
+
+
+<nav id="footer" class="navbar navbar-expand-lg navbar-light fixed-bottom">
+    <div class="container">
+        <div class="" style="horiz-align: left;">Powered by <a target="_blank" href="http://imagelab.ing.unimore.it/">
+            <img src="./ScalarMultiplication_files/aimagelab.png" height="25" alt="AImageLab"></a>
+        </div>
+        <div class="" style="float: right !important;">
+            Designed and Managed by <a href="http://federicobolelli.it/" target="_blank">F. Bolelli</a>, S. Allegretti
+            and C. Grana
+        </div>
+    </div>
+</nav>
+<!-- Footer -->
+<style>
+    #footer {
+        font-size: large;
+        background-color: #ECECEC;
+    
+    }
+
+    .container {
+        max-width: 98%;
+    }
+
+    .custom-button {
+        width: 200px !important;
+        height: 200px !important;
+        margin-right: 20px !important;
+    }
+
+    .btn-group-xs > .btn, .btn-xs {
+        padding: .25rem .4rem;
+        font-size: .875rem;
+        line-height: .5;
+        border-radius: .2rem;
+    }
+
+    /* Overrides list-group-item from Bootstrap */
+    .list-group-item {
+        background-color: transparent;
+        padding: 3px 13px
+    }
+
+    /* Overrides list-group-item from Bootstrap */
+    .teacher_block {
+     background-color: #ffffff;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .mycontent-left {
+        border-right: 1px dashed #333;
+    }
+
+    pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+
+    /* Overrides default Editor.md code style */
+    .editormd-preview-container code, .editormd-html-preview code {
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        padding: 0;
+        color: #A31515;
+        border-radius: 0;
+        box-sizing: content-box;
+    }
+
+    .editormd-preview-container p code, .editormd-html-preview p code {
+        margin: 0;
+    }
+
+    .editormd-preview-container code::before, .editormd-html-preview code::before {
+        content: "";
+    }
+
+    .editormd-preview-container code::after, .editormd-html-preview code::after {
+        content: "";
+    }
+
+    /* Reduce font size in Editor.md formulas */
+    .editormd-preview-container .katex, .editormd-html-preview .katex {
+        font-size: 1.2em !important;
+    }
+</style>
+
+<script type="text/javascript">
+    $('#language-list a').on('click', function (event) {
+        event.preventDefault();
+        var target = $(event.target);
+        var url = target.attr('href');
+        var language_code = target.data('language-code');
+        $.ajax({
+            type: 'POST',
+            url: url,
+            data: {language: language_code},
+            headers: {"X-CSRFToken": getCookie('csrftoken')}
+        }).done(function (data, textStatus, jqXHR) {
+            window.location.reload(true);
+        });
+    });
+</script>
+</body><!-- Footer --></html>
